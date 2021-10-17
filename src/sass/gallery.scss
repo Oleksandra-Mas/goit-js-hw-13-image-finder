@@ -1,0 +1,34 @@
+body {
+  padding: 25px;
+}
+ul {
+  list-style: none;
+}
+.stats {
+  display: flex;
+}
+.stats-item {
+  align-items: center;
+  display: flex;
+  & + .stats-item {
+    margin-left: 10px;
+  }
+}
+.material-icons {
+  margin-right: 5px;
+}
+#search-form {
+  & input {
+    width: 640px;
+  }
+  & {
+    padding-left: 40px;
+  }
+}
+.pnotify {
+  top: 25px;
+  left: 720px;
+  position: absolute;
+  height: auto;
+  z-index: 9999;
+}
